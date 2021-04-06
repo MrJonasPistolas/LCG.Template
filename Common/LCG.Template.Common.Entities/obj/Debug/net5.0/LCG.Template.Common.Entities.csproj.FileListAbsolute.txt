@@ -1,0 +1,15 @@
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\bin\Debug\net5.0\LCG.Template.Common.Data.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.csprojAssemblyReference.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.AssemblyInfoInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.AssemblyInfo.cs
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\bin\Debug\net5.0\LCG.Template.Common.Entities.deps.json
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\bin\Debug\net5.0\LCG.Template.Common.Entities.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\bin\Debug\net5.0\ref\LCG.Template.Common.Entities.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\bin\Debug\net5.0\LCG.Template.Common.Entities.pdb
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\bin\Debug\net5.0\LCG.Template.Common.Data.pdb
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.csproj.CoreCompileInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.csproj.CopyComplete
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\ref\LCG.Template.Common.Entities.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Entities\obj\Debug\net5.0\LCG.Template.Common.Entities.pdb

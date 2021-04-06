@@ -1,0 +1,17 @@
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Common.Data.dll
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Common.Entities.dll
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.csprojAssemblyReference.cache
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.AssemblyInfoInputs.cache
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.AssemblyInfo.cs
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Data.Identity.deps.json
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Data.Identity.dll
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\ref\LCG.Template.Data.Identity.dll
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Data.Identity.pdb
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Common.Entities.pdb
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\bin\Debug\net5.0\LCG.Template.Common.Data.pdb
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.csproj.CoreCompileInputs.cache
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.csproj.CopyComplete
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.dll
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\ref\LCG.Template.Data.Identity.dll
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Identity\obj\Debug\net5.0\LCG.Template.Data.Identity.pdb

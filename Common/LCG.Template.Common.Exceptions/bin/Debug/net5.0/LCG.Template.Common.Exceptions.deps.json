@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LCG.Template.Common.Exceptions/1.0.0": {
+        "runtime": {
+          "LCG.Template.Common.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LCG.Template.Common.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

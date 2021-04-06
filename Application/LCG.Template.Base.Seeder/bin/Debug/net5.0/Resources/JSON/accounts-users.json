@@ -1,0 +1,38 @@
+[
+  {
+    "UserId": 1,
+    "AccountId": 1,
+    "AccountUserTypeId": 1,
+    "Active": true
+  },
+  {
+    "UserId": 2,
+    "AccountId": 1,
+    "AccountUserTypeId": 3,
+    "Active": true
+  },
+  {
+    "UserId": 3,
+    "AccountId": 1,
+    "AccountUserTypeId": 2,
+    "Active": true
+  },
+  {
+    "UserId": 4,
+    "AccountId": 1,
+    "AccountUserTypeId": 3,
+    "Active": true
+  },
+  {
+    "UserId": 4,
+    "AccountId": 2,
+    "AccountUserTypeId": 3,
+    "Active": true
+  },
+  {
+    "UserId": 5,
+    "AccountId": 2,
+    "AccountUserTypeId": 2,
+    "Active": true
+  }
+]

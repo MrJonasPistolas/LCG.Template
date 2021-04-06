@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LCG.Template</title>
+    <base href="/" />
+
+    <!-- FontAwesome JS -->
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
+
+    <!-- App CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/portal.css" />
+    <link rel="stylesheet" href="assets/css/portal-fix.css" />
+
+    <link href="LCG.Template.Client.styles.css" rel="stylesheet" />
+
+</head>
+
+<body class="app">
+    <div id="app">
+        <div class="spinner-border" role="status">
+            <span class="sr-only"></span>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Specific JS -->
+    <!--<script src="assets/js/app.js"></script>-->
+    <script src="assets/js/body-element.js"></script>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        const NAME = 'ActiveLanguage';
+
+        function getLanguage() {
+            let result = window.localStorage[NAME];
+
+            return result ? result : navigator.language || navigator.userLanguage || 'pt';
+
+        }
+
+        function setLanguage(value) {
+            window.localStorage[NAME] = value
+
+        }
+    </script>
+</body>
+
+</html>

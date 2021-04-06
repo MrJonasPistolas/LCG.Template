@@ -1,0 +1,12 @@
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\bin\Debug\net5.0\LCG.Template.Common.Enums.deps.json
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\bin\Debug\net5.0\LCG.Template.Common.Enums.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\bin\Debug\net5.0\ref\LCG.Template.Common.Enums.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\bin\Debug\net5.0\LCG.Template.Common.Enums.pdb
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.csprojAssemblyReference.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.AssemblyInfoInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.AssemblyInfo.cs
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.csproj.CoreCompileInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\ref\LCG.Template.Common.Enums.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Enums\obj\Debug\net5.0\LCG.Template.Common.Enums.pdb

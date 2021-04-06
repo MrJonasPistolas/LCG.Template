@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LCG.Template.Server</name>
+    </assembly>
+    <members>
+        <member name="T:LCG.Template.Server.Controllers.v1.LoginController">
+            <summary>
+            Login Controller
+            </summary>
+        </member>
+        <member name="M:LCG.Template.Server.Controllers.v1.LoginController.Login(LCG.Template.Common.Models.Account.LoginModel)">
+            <summary>
+            Method to Log in user into the system
+            </summary>
+            <param name="login">Login Model</param>
+            <returns>Login result</returns>
+        </member>
+        <member name="M:LCG.Template.Server.Startup.AddAllDbContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            In this method you should add all the DbContext the app is going to use
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:LCG.Template.Server.Startup.AddAndConfigureIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            In this method you should add and configure your identity
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:LCG.Template.Server.Startup.AddAndConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            In this method you should add and configure your Swagger service
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:LCG.Template.Server.Startup.AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            In this method you should add and configure your DI Services
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

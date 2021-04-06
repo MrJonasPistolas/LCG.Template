@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "LCG",
+    "Address": "Rua António Champalimaud, Pólo Tecnológico de Lisboa, Edifócio Empresarial 3, Piso 2 - Sala 114",
+    "ZipCode": "1600-546",
+    "City": "Lisboa",
+    "LanguageId": 1,
+    "Email": "geral@lcg.consulting"
+  },
+  {
+    "Name": "fastLNK",
+    "Address": "The FastLink Street",
+    "ZipCode": "1600-546",
+    "City": "Nukarium",
+    "LanguageId": 1,
+    "Email": "nukarium@test.tst"
+  }
+]

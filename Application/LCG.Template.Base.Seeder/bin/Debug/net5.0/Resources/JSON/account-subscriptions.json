@@ -1,0 +1,13 @@
+[
+  {
+    "AccountId": 1,
+    "Active": true,
+    "SubscriptionDate": "2019-01-01",
+    "ExpirationDate": "2020-12-31",
+    "Price": 1000,
+    "EndClientLimit": 10,
+    "AccountUserLimit": 10,
+    "SpaceAmount": 10,
+    "PaymentPlanId": 1
+  }
+] 

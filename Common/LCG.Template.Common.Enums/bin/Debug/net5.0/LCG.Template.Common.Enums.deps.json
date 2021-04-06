@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LCG.Template.Common.Enums/1.0.0": {
+        "runtime": {
+          "LCG.Template.Common.Enums.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LCG.Template.Common.Enums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

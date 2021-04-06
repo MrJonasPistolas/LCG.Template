@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "wwwroot/assets/css/portal.min.css",
+    "inputFiles": [
+      "wwwroot/assets/css/portal.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/assets/css/portal-fix.min.css",
+    "inputFiles": [
+      "wwwroot/assets/css/portal-fix.css"
+    ]
+  }
+]

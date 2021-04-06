@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\LCG.Template.Common.Entities\LCG.Template.Common.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\LCG.Template.Common.Models\LCG.Template.Common.Models.csproj" />
+    <ProjectReference Include="..\..\Common\LCG.Template.Common.Tools\LCG.Template.Common.Tools.csproj" />
+  </ItemGroup>
+
+</Project>

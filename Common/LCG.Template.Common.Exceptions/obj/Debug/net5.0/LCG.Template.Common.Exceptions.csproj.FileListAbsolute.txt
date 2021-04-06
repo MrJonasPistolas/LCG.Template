@@ -1,0 +1,12 @@
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\bin\Debug\net5.0\LCG.Template.Common.Exceptions.deps.json
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\bin\Debug\net5.0\LCG.Template.Common.Exceptions.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\bin\Debug\net5.0\ref\LCG.Template.Common.Exceptions.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\bin\Debug\net5.0\LCG.Template.Common.Exceptions.pdb
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.csprojAssemblyReference.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.AssemblyInfoInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.AssemblyInfo.cs
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.csproj.CoreCompileInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\ref\LCG.Template.Common.Exceptions.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Exceptions\obj\Debug\net5.0\LCG.Template.Common.Exceptions.pdb

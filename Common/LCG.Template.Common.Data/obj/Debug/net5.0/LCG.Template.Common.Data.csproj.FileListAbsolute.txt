@@ -1,0 +1,12 @@
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\bin\Debug\net5.0\LCG.Template.Common.Data.deps.json
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\bin\Debug\net5.0\LCG.Template.Common.Data.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\bin\Debug\net5.0\ref\LCG.Template.Common.Data.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\bin\Debug\net5.0\LCG.Template.Common.Data.pdb
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.csprojAssemblyReference.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.AssemblyInfoInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.AssemblyInfo.cs
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.csproj.CoreCompileInputs.cache
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\ref\LCG.Template.Common.Data.dll
+E:\src\private\LCG.Template\Common\LCG.Template.Common.Data\obj\Debug\net5.0\LCG.Template.Common.Data.pdb

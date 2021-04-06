@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LCG.Template.Common.Enums\LCG.Template.Common.Enums.csproj" />
+    <ProjectReference Include="..\LCG.Template.Common.Models\LCG.Template.Common.Models.csproj" />
+  </ItemGroup>
+
+</Project>

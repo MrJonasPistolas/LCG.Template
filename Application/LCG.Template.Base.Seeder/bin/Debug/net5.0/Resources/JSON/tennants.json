@@ -1,0 +1,19 @@
+[
+  {
+    "UserName": "tiago.ramalho@lcg.consulting",
+    "EmailConfirmed": true,
+    "FirstName": "Tiago",
+    "LastName": "Ramalho",
+    "CompanyName": "LCG",
+    "Email": "tiago.ramalho@lcg.consulting"
+  },
+  
+  {
+    "UserName": "bernardo.magalhaes@lcg.consulting",
+    "EmailConfirmed": true,
+    "FirstName": "Bernardo",
+    "LastName": "Magalhães",
+    "CompanyName": "LCG",
+    "Email": "bernardo.magalhaes@lcg.consulting"
+  }
+]

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.10.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\LCG.Template.Common.Entities\LCG.Template.Common.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\LCG.Template.Common.Enums\LCG.Template.Common.Enums.csproj" />
+    <ProjectReference Include="..\..\Common\LCG.Template.Common.Exceptions\LCG.Template.Common.Exceptions.csproj" />
+    <ProjectReference Include="..\..\Data\LCG.Template.Data.Application\LCG.Template.Data.Application.csproj" />
+    <ProjectReference Include="..\LCG.Template.ServiceContracts\LCG.Template.ServiceContracts.csproj" />
+  </ItemGroup>
+
+</Project>

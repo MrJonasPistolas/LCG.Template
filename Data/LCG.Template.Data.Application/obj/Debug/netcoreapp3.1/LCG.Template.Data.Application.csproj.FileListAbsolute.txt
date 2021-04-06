@@ -1,0 +1,4 @@
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Application\obj\Debug\netcoreapp3.1\LCG.Template.Data.Application.csprojAssemblyReference.cache
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Application\obj\Debug\netcoreapp3.1\LCG.Template.Data.Application.AssemblyInfoInputs.cache
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Application\obj\Debug\netcoreapp3.1\LCG.Template.Data.Application.AssemblyInfo.cs
+E:\src\private\LCG.Template\Data\LCG.Template.Data.Application\obj\Debug\netcoreapp3.1\LCG.Template.Data.Application.csproj.CoreCompileInputs.cache

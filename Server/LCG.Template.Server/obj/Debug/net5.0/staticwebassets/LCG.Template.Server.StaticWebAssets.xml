@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="E:\src\private\LCG.Template\Client\LCG.Template.Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="E:\src\private\LCG.Template\Client\LCG.Template.Client\wwwroot\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\johnn\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.5\staticwebassets\V4\" />
+</StaticWebAssets>

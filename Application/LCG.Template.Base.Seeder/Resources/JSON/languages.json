@@ -1,0 +1,11 @@
+//codes are in ISO 639-1 format
+[
+  {
+    "Description": "Portuguese",
+    "Code": "pt"
+  },
+  {
+    "Description": "English",
+    "Code": "en"
+  }
+]

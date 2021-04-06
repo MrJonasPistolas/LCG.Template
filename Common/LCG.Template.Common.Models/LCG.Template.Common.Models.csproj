@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Resources\LCG.Template.Resources\LCG.Template.Resources.csproj" />
+    <ProjectReference Include="..\LCG.Template.Common.Entities\LCG.Template.Common.Entities.csproj" />
+    <ProjectReference Include="..\LCG.Template.Common.Enums\LCG.Template.Common.Enums.csproj" />
+  </ItemGroup>
+
+</Project>

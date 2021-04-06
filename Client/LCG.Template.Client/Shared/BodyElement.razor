@@ -1,0 +1,11 @@
+﻿@inject IJSRuntime JSRuntime
+@code {
+    protected async override Task OnParametersSetAsync()
+    {
+        if (CssClass is { })
+            await JSRuntime.InvokeVoidAsync("addCssClassToBody", CssClass);
+    }
+
+    [Parameter]
+    public string? CssClass { get; set; } = null;
+}

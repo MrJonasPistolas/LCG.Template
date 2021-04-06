@@ -1,0 +1,1095 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\src\\private\\LCG.Template\\Server\\LCG.Template.Server\\LCG.Template.Server.csproj": {}
+  },
+  "projects": {
+    "E:\\src\\private\\LCG.Template\\Client\\LCG.Template.Client\\LCG.Template.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Client\\LCG.Template.Client\\LCG.Template.Client.csproj",
+        "projectName": "LCG.Template.Client",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Client\\LCG.Template.Client\\LCG.Template.Client.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Client\\LCG.Template.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.4, 5.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Data\\LCG.Template.Common.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Data\\LCG.Template.Common.Data.csproj",
+        "projectName": "LCG.Template.Common.Data",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Data\\LCG.Template.Common.Data.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj",
+        "projectName": "LCG.Template.Common.Entities",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Data\\LCG.Template.Common.Data.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Data\\LCG.Template.Common.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj",
+        "projectName": "LCG.Template.Common.Enums",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Exceptions\\LCG.Template.Common.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Exceptions\\LCG.Template.Common.Exceptions.csproj",
+        "projectName": "LCG.Template.Common.Exceptions",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Exceptions\\LCG.Template.Common.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Extensions\\LCG.Template.Common.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Extensions\\LCG.Template.Common.Extensions.csproj",
+        "projectName": "LCG.Template.Common.Extensions",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Extensions\\LCG.Template.Common.Extensions.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj",
+        "projectName": "LCG.Template.Common.Models",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Tools\\LCG.Template.Common.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Tools\\LCG.Template.Common.Tools.csproj",
+        "projectName": "LCG.Template.Common.Tools",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Tools\\LCG.Template.Common.Tools.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Extensions\\LCG.Template.Common.Extensions.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Extensions\\LCG.Template.Common.Extensions.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj",
+        "projectName": "LCG.Template.Data.Application",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Identity\\LCG.Template.Data.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Identity\\LCG.Template.Data.Identity.csproj",
+        "projectName": "LCG.Template.Data.Identity",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Identity\\LCG.Template.Data.Identity.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj",
+        "projectName": "LCG.Template.Data.Logging",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "System.Diagnostics.EventLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj",
+        "projectName": "LCG.Template.Resources",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\LCG.Template.Resources.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Resources\\LCG.Template.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Server\\LCG.Template.Server\\LCG.Template.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Server\\LCG.Template.Server\\LCG.Template.Server.csproj",
+        "projectName": "LCG.Template.Server",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Server\\LCG.Template.Server\\LCG.Template.Server.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Server\\LCG.Template.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Client\\LCG.Template.Client\\LCG.Template.Client.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Client\\LCG.Template.Client\\LCG.Template.Client.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Identity\\LCG.Template.Data.Identity.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Identity\\LCG.Template.Data.Identity.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Logging\\LCG.Template.Data.Logging.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.Services\\LCG.Template.Services.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.Services\\LCG.Template.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj",
+        "projectName": "LCG.Template.ServiceContracts",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Models\\LCG.Template.Common.Models.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Tools\\LCG.Template.Common.Tools.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Tools\\LCG.Template.Common.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.Services\\LCG.Template.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.Services\\LCG.Template.Services.csproj",
+        "projectName": "LCG.Template.Services",
+        "projectPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.Services\\LCG.Template.Services.csproj",
+        "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Entities\\LCG.Template.Common.Entities.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Enums\\LCG.Template.Common.Enums.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Exceptions\\LCG.Template.Common.Exceptions.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Common\\LCG.Template.Common.Exceptions\\LCG.Template.Common.Exceptions.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Data\\LCG.Template.Data.Application\\LCG.Template.Data.Application.csproj"
+              },
+              "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj": {
+                "projectPath": "E:\\src\\private\\LCG.Template\\Services\\LCG.Template.ServiceContracts\\LCG.Template.ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

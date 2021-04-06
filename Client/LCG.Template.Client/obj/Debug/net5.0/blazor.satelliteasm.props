@@ -1,0 +1,5 @@
+﻿<SatelliteAssembly>
+  <Assembly Name="obj\Debug\net5.0\en\LCG.Template.Client.resources.dll" Culture="en" DestinationSubDirectory="en\" />
+  <Assembly Name="obj\Debug\net5.0\pt\LCG.Template.Client.resources.dll" Culture="pt" DestinationSubDirectory="pt\" />
+  <Assembly Name="E:\src\private\LCG.Template\Resources\LCG.Template.Resources\bin\Debug\net5.0\en\LCG.Template.Resources.resources.dll" Culture="en" DestinationSubDirectory="en\" />
+</SatelliteAssembly>
