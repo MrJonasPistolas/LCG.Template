@@ -219,16 +219,11 @@
       "LCG.Template.Common.Enums.dll": "sha256-fLTtpon1l3c2lbnZ8+NkFjGVri7VuSUyRletWw1pbGM=",
       "LCG.Template.Common.Models.dll": "sha256-n7GwJV2LQU3SdgjRc9Z+5DldGCvVYZ989LfsAF91MPs=",
       "LCG.Template.Resources.dll": "sha256-Dg\/SelNP9vtNXrQRauqI0ql7bdzw\/el2jg1iWrAlwL8=",
-      "LCG.Template.Client.dll": "sha256-ZszvR8IWpNTuNjIgysDU10yp7JK7nNMmgBd3syov8vg="
+      "LCG.Template.Client.dll": "sha256-rhazNIBl7kzahoacO9WxKNYdb+HVGl\/KZRMXw0YfJ6Q="
     },
     "lazyAssembly": null,
     "pdb": {
-      "LCG.Template.Common.Models.pdb": "sha256-0VKoXi1VUUeJyi6j+YSFxb9zgYDnhsYHySiJN9RZUrQ=",
-      "LCG.Template.Common.Data.pdb": "sha256-EbAOMXeDyyEXT\/MmkqO1ALCy+SwHdpi7EjW92OXNWt8=",
-      "LCG.Template.Common.Entities.pdb": "sha256-TfeTMMCLG\/Md817RTa30wNuD+Igwd1TfAQPRJHsvaDU=",
-      "LCG.Template.Common.Enums.pdb": "sha256-2Cucp+6Niub8QutuIvWN592OClhIQRqIq1OwrIdUjBY=",
-      "LCG.Template.Resources.pdb": "sha256-d7DA5rkUbr+IJ+hHMlnQwLz+jmomAlRxHqCZASOKAQs=",
-      "LCG.Template.Client.pdb": "sha256-QohoVJG+kE4mt8mwUygrEZ2QBx0zieWfnYmFdEkvt7s="
+      "LCG.Template.Client.pdb": "sha256-\/ii2wTvpGFTc3EyVKy6HaT8yrcERGYPHmREdqZyJfZQ="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ibxaSjW7s3aLVssChknhzCpgMTHGu4D48Q9OLP3dfe8=",
@@ -241,11 +236,11 @@
     },
     "satelliteResources": {
       "en": {
-        "en\/LCG.Template.Client.resources.dll": "sha256-pSjtsf37JbED\/qvBCbzZ5IT4HHSulUBnrxB8BdauPoE=",
+        "en\/LCG.Template.Client.resources.dll": "sha256-3H5SpBJ1C6DkcpB0zkA2bEZz0QcEjgdIPv4qqGP\/EY8=",
         "en\/LCG.Template.Resources.resources.dll": "sha256-\/fw6haC09a8SKDzDx+9ONilGoXh64wmNT3iRSQH2iVY="
       },
       "pt": {
-        "pt\/LCG.Template.Client.resources.dll": "sha256-bFj4wiTVZDHPctaUveIm9Zf2EVAkzrj0hoKcerKB1L0="
+        "pt\/LCG.Template.Client.resources.dll": "sha256-lBqNJkPMYlab9VomZelbuJi94Wfn1XQs2rVLq30P4lo="
       }
     }
   }

@@ -146,22 +146,7 @@ using LCG.Template.Common.Models;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 18 "E:\src\private\LCG.Template\Client\LCG.Template.Client\Pages\Index.razor"
-       
-    private string message = "";
-
-    private async Task CallLogin()
-    {
-        var user = _httpContextAccessor.HttpContext.User;
-        message = user.Claims.FirstOrDefault().Value;
-    }
-
-#line default
-#line hidden
-#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IHttpContextAccessor _httpContextAccessor { get; set; }
     }
 }
 #pragma warning restore 1591

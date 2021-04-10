@@ -25,7 +25,7 @@
         <member name="M:LCG.Template.Server.Startup.AddAndConfigureIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             In this method you should add and configure your identity
-            </summary>
+            </summary>  
             <param name="services"></param>
         </member>
         <member name="M:LCG.Template.Server.Startup.AddAndConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">

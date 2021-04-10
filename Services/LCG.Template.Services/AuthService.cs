@@ -1,17 +1,16 @@
 ﻿using LCG.Template.Common.Entities.Identity;
 using LCG.Template.Common.Enums.Auth;
 using LCG.Template.Common.Enums.Entities;
-using LCG.Template.Common.Extensions.Session;
 using LCG.Template.Common.Models.Account;
 using LCG.Template.Common.Models.Auth;
 using LCG.Template.Common.Models.Extensions;
 using LCG.Template.ServiceContracts;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
@@ -57,32 +56,32 @@ namespace LCG.Template.Services
                 if (!result.Succeeded) return new LoginResult { Successful = false, Error = "Username and password are invalid.", Status = LoginStatus.Failed };
 
                 var user = _userManager.Users.SingleOrDefault(u => u.UserName == loginModel.Username);
-                var roles = await _userManager.GetRolesAsync(user);
-                var accounts = await _accountService.GetAccountsByUserNameAsync(user);
+
                 var accountUsers = await _userService.GetAccountUsersAsync(user.ApplicationUserId);
-                var userInfo = await _userService.GetCurrentUserInformationAsync(user.ApplicationUserId);
-
-                var languages = _languageService.GetLanguageByAccount(roles.Contains(SecurityRoles.Admin.ToString()) ? default(int?) : accounts.First().Id);
-
-                var sessionInfo = new SessionAccountModel(user, roles, accounts.ToList(), userInfo, languages.ToList(), accountUsers);
 
                 LoginStatus loginStatus = LoginStatus.PickAccount;
 
                 if (accountUsers.Count == 1)
                 {
-                    //accountInfo.UserInfo.AccountUserId = accountUsers.FirstOrDefault().AccountUserId;
-                    //await _httpContextAccessor.HttpContext.Session.AccountInformationAsync(accountInfo);
                     loginStatus = LoginStatus.Success;
                 }
 
-                var claims = new[]
+                var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.NameIdentifier, loginModel.Username),
-                    new Claim(ClaimTypes.UserData, _cypherService.Encrypt(JsonConvert.SerializeObject(sessionInfo)))
+                    new Claim(ClaimTypes.Name, loginModel.Username)
                 };
+
+                var roles = await _userManager.GetRolesAsync(user);
+                foreach (var role in roles)
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, role));
+                }
+
+                claims.Add(new Claim("selected-account-user", accountUsers.FirstOrDefault().AccountUserId.ToString()));
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSecurityKey"]));
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                var encryptingCredentials = new EncryptingCredentials(key, JwtConstants.DirectKeyUseAlg, SecurityAlgorithms.Aes256CbcHmacSha512);
                 var expiry = DateTime.Now.AddDays(Convert.ToInt32(_configuration["JwtExpiryInDays"]));
 
                 var token = new JwtSecurityToken(

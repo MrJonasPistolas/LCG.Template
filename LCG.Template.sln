@@ -43,11 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCG.Template.Base.Seeder", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{12A485CC-FECE-45DC-A297-742D73DF7663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCG.Template.Client", "Client\LCG.Template.Client\LCG.Template.Client.csproj", "{ED2EE1E7-588A-4EFC-A102-7E57AE9DEAD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCG.Template.Client", "Client\LCG.Template.Client\LCG.Template.Client.csproj", "{ED2EE1E7-588A-4EFC-A102-7E57AE9DEAD0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{7B24AAE7-9F7A-4112-BC1F-5B294FE9DA40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCG.Template.Server", "Server\LCG.Template.Server\LCG.Template.Server.csproj", "{C4EEAB9D-49ED-4A0C-A5F6-3082224ED90B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCG.Template.Server", "Server\LCG.Template.Server\LCG.Template.Server.csproj", "{C4EEAB9D-49ED-4A0C-A5F6-3082224ED90B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

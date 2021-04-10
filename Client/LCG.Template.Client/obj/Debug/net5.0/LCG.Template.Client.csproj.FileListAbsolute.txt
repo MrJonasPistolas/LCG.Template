@@ -721,3 +721,5 @@ E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\build-gz
 E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\build-gz\Y++4jHkV.gz
 E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\build-gz\Wa+31Nm5.gz
 E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\build-gz\VNDbukzy.gz
+E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
+E:\src\private\LCG.Template\Client\LCG.Template.Client\obj\Debug\net5.0\Razor\Shared\LoginDisplay.razor.g.cs

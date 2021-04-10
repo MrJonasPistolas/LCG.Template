@@ -7,6 +7,7 @@ using LCG.Template.Data.Logging;
 using LCG.Template.ServiceContracts;
 using LCG.Template.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -43,7 +44,6 @@ namespace LCG.Template.Server
             AddServices(services);
             AddAndConfigureSwagger(services);
 
-            services.AddSession();
             services.AddLogging();
 
             services.AddControllers();
@@ -84,7 +84,6 @@ namespace LCG.Template.Server
 
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
@@ -109,7 +108,7 @@ namespace LCG.Template.Server
 
         /// <summary>
         /// In this method you should add and configure your identity
-        /// </summary>
+        /// </summary>  
         /// <param name="services"></param>
         private void AddAndConfigureIdentity(IServiceCollection services)
         {
@@ -131,6 +130,13 @@ namespace LCG.Template.Server
                             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JwtSecurityKey"]))
                         };
                     });
+
+            services.AddAuthorization(options =>
+            {
+                var defaultAuthorizationPolicyBuilder = new AuthorizationPolicyBuilder(JwtBearerDefaults.AuthenticationScheme);
+                defaultAuthorizationPolicyBuilder = defaultAuthorizationPolicyBuilder.RequireAuthenticatedUser();
+                options.DefaultPolicy = defaultAuthorizationPolicyBuilder.Build();
+            });
 
             services.AddResponseCompression(opts =>
             {
